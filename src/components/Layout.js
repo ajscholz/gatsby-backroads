@@ -5,10 +5,10 @@ import "./layout.css"
 
 export default ({ children }) => {
   return (
-    <div>
+    <main>
       <Navbar />
       {children}
       <Footer />
-    </div>
+    </main>
   )
 }

@@ -4,7 +4,7 @@ import styles from "../css/error.module.css"
 import { Link } from "gatsby"
 import Banner from "../components/Banner"
 
-const Error = () => {
+export default () => {
   return (
     <Layout>
       <header className={styles.error}>
@@ -17,4 +17,3 @@ const Error = () => {
     </Layout>
   )
 }
-export default Error
