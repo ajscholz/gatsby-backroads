@@ -12,10 +12,14 @@ module.exports = {
     author: "@johndoe",
   },
   plugins: [
+    `gatsby-plugin-styled-components`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-styled-components`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        // Add any options here
+        name: `images`,
+        path: `${__dirname}/src/images/`,
       },
     },
   ],
