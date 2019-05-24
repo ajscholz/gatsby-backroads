@@ -2,5 +2,9 @@ import React from "react"
 import Layout from "../components/Layout"
 
 export default () => {
-  return <Layout>hello from tours page!!!!!</Layout>
+  return (
+    <Layout>
+      <div>Hello from tours</div>
+    </Layout>
+  )
 }
