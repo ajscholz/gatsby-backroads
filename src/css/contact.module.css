@@ -11,13 +11,11 @@
     margin: 0 auto;
   }
 }
-
-.contact label {
+label {
   text-transform: capitalize;
   display: block;
   margin-bottom: 0.5rem;
 }
-
 .formControl,
 .submit {
   width: 100%;
