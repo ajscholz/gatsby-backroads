@@ -8,6 +8,9 @@ module.exports = {
     description:
       "Explore awesome worldwide tours and discover what makes each of them unique. Forget your daily routine and say yes to adventure.",
     author: "@johndoe",
+    twitterUsername: "@ascholzonline",
+    image: "/defaultBcg.jpeg",
+    siteUrl: "https://backroads-travel.netlify.com",
   },
   plugins: [
     `gatsby-plugin-styled-components`,
@@ -15,6 +18,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-transition-link`,
     `gatsby-plugin-playground`,
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
